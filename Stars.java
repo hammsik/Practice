@@ -6,6 +6,7 @@ public class Stars {
         int n = scan.nextInt();
         for(int i=1; i<=n; i++) {
             System.out.println(" ".repeat(n-i) + "a".repeat(i));
+            System.out.println(" ".repeat(n-i) + "a".repeat(i));
         }
     }
 }
