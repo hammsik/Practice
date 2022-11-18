@@ -5,7 +5,7 @@ public class Stars {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
         for(int i=1; i<=n; i++) {
-            System.out.println(" ".repeat(n-i) + "@".repeat(i));
+            System.out.println(" ".repeat(n-i) + "a".repeat(i));
         }
     }
 }
